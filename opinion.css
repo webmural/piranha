@@ -1,0 +1,84 @@
+.flora * {
+  color: inherit;
+  background: transparent;
+}
+
+.sol { background: mediumturquoise; color: #111 }
+.luna { background: cornflowerblue; color: #111 }
+.jugo { background: mediumorchid; color: #111 }
+.skin { background: silver; color: #111 }
+.swim { background: salmon; color: #111 }
+.lime { background: palegreen; color: #111 }
+
+.sombra ::selection {
+  background: indigo;
+  color: orangered;
+  text-shadow:
+    0 1em 0 orangered,
+    0 -1em 0 orangered,
+    0 2em 0 orangered,
+    0 -2em 0 orangered,
+    0 3em 0 orangered,
+    0 -3em 0 orangered;
+}
+
+:focus {
+  outline: thick dotted;
+}
+
+.mundo {
+  font-weight: 500;
+  font-size: calc(1em + 1vw + 1vh);
+  line-height: 1.5;
+}
+
+.cuerpo {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-wrap: break-word;
+}
+
+.capo {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.muy {
+  font-style: inherit;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.spine {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.amor {
+  margin: 0;
+  max-width: 100%;
+  flex-basis: 100%;
+}
+
+.quote {
+  box-sizing: border-box;
+  padding: 1rem;
+  border-left: .25rem dashed;
+  display: block;
+  min-height: 100vh;
+}
+
+.loco {
+  transform: rotate(180deg);
+}
+
+.pad {
+  box-sizing: border-box;
+  padding: 1em;
+}
+
+.voz {
+  font: 0/0 fantasy;
+}
